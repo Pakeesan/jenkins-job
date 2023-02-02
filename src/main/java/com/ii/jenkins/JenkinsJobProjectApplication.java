@@ -15,6 +15,7 @@ public class JenkinsJobProjectApplication {
 	
 	@PostConstruct
 	public void init() {
+		System.out.println("Hello");
 		System.out.println("welcome to jenkins ");
 	}
 	
